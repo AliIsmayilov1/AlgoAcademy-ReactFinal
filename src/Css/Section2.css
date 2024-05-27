@@ -1,0 +1,54 @@
+div.section2{
+  margin-bottom: 150px;
+}
+
+
+div.top {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.top > p {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+div.textHolder > h1 {
+  color: white;
+  position: absolute;
+  top: 80%;
+  margin: 0;
+  font-size: 40px;
+}
+
+div.parent {
+  position: relative;
+  height: 270px;
+}
+
+div.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 64px;
+}
+
+
+div.parent  > img{
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, #000000 100%);
+}
+
+div.timeHolder{
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 78%;
+  top: 80%;
+  padding: 8px;
+  border-radius: 8px 0px 0px 0px;
+}
+
+div.parent > p{
+  color: rgba(255, 255, 255, 0.670);
+}

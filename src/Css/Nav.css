@@ -1,0 +1,25 @@
+div.navContainer{
+    margin-bottom: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.navContainer > h4{
+    display: inline-block;
+}
+div.navContainer > h4:hover{
+    user-select: none;
+}
+
+div.navContainer > nav{
+    display: flex;
+    gap: 32px;
+}
+div.navContainer > nav > span{
+    opacity: 67%;
+}
+div.navContainer > nav > span:hover{
+    cursor: pointer;
+    user-select: none;
+}
