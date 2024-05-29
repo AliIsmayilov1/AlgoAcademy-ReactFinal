@@ -27,9 +27,6 @@ function Section1() {
           <Button2 h1="38:14" p="TIME" className="yellow h1"></Button2>
           <Button2 h1="165" p="EST CALORIES" className="red h1"></Button2>
         </div>
-        {/* <div className="imageHolder">
-            <img src={Image1}></img>
-          </div> */}
       </div>
     </>
   );

@@ -1,0 +1,97 @@
+div.section3Holder{
+  padding: 0px 40px;
+}
+
+div.textHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.leftTextHolder {
+  position: relative;
+  width: 523px;
+  height: 480px;
+  color: white;
+}
+
+div.leftTextHolder > img {
+  position: absolute;
+  top: 90%;
+  rotate: 10deg;
+}
+
+div.leftTextHolder > h1 {
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+}
+
+div.rightTextHolder {
+  box-sizing: border-box;
+  padding: 250px 450px;
+  width: 999px;
+  height: 733px;
+  grid: R;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+div.rightTextHolder > p {
+  width: 258px;
+  margin-bottom: 20px;
+}
+
+div.imageHolder {
+  position: relative;
+  height: 800px;
+}
+div.imageHolder > div.trainer1 {
+  position: absolute;
+  right: 989px;
+  top: 194px;
+}
+div.imageHolder > div.trainer2 {
+  position: absolute;
+  right: 668px;
+  top: 514px;
+}
+
+div.imageHolder > div.trainer3 {
+  position: absolute;
+  right: 110px;
+}
+
+div.imageHolder > div.trainer1 > h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+div.imageHolder > div.trainer1 > p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 2px;
+}
+div.imageHolder > div.trainer2 > h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+div.imageHolder > div.trainer2 > p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 2px;
+}
+div.imageHolder > div.trainer3 > h1 {
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+
+div.imageHolder > div.trainer3 > p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 5px;
+}
