@@ -16,4 +16,14 @@ div.workoutTextHolder{
 
 div.workoutTextHolder > p{
     color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+
+div.workout > p{
+    color: rgba(255, 255, 255, 0.370);
+    font-weight: 600;
+}
+
+div.workoutTextHolder > h1{
+    font-weight: 400;
 }

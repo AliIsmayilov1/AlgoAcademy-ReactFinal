@@ -21,7 +21,8 @@ div.leftTextHolder > img {
 }
 
 div.leftTextHolder > h1 {
-  font-family: Poppins;
+  position: sticky;
+  z-index: 1;
   font-size: 120px;
   font-weight: 600;
   line-height: 120px;
@@ -32,17 +33,20 @@ div.leftTextHolder > h1 {
 
 div.rightTextHolder {
   box-sizing: border-box;
-  padding: 250px 450px;
-  width: 999px;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
   height: 733px;
-  grid: R;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-div.rightTextHolder > p {
+div.rightTextHolder > .rightTextContainer> p {
   width: 258px;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 
 div.imageHolder {
@@ -69,29 +73,57 @@ div.imageHolder > div.trainer1 > h1 {
   color: white;
   font-size: 20px;
   margin: 0;
+  font-weight: 500;
 }
 
 div.imageHolder > div.trainer1 > p {
   color: rgba(255, 255, 255, 0.5);
   margin: 2px;
+  font-weight: 400;
 }
 div.imageHolder > div.trainer2 > h1 {
   color: white;
   font-size: 20px;
   margin: 0;
+  font-weight: 500;
 }
 
 div.imageHolder > div.trainer2 > p {
   color: rgba(255, 255, 255, 0.5);
   margin: 2px;
+  font-weight: 400;
 }
 div.imageHolder > div.trainer3 > h1 {
   color: white;
   font-size: 20px;
   margin: 5px;
+  font-weight: 500;
 }
 
 div.imageHolder > div.trainer3 > p {
   color: rgba(255, 255, 255, 0.5);
   margin: 5px;
+  font-weight: 400;
+}
+
+@media (max-width:1244px) {
+  div.rightTextHolder{
+    height: auto;
+  }
+}
+
+@media (max-width:956px){
+  div.textHolder {
+    flex-direction: column;
+  }
+  div.textHolder  > .rightTextHolder {
+    margin-top: 80px;
+    width: auto;
+  }
+}
+
+@media (max-width:600px) {
+  div.leftTextHolder  {
+    display: none;
+  }
 }

@@ -17,10 +17,25 @@ div.navContainer > nav{
     display: flex;
     gap: 32px;
 }
+
+div.navContainer > nav > i{
+    color: white;
+    display: none;
+}
+
 div.navContainer > nav > span{
     opacity: 67%;
 }
 div.navContainer > nav > span:hover{
     cursor: pointer;
     user-select: none;
+}
+
+@media (max-width:768px) {
+    div.navContainer > nav > span{
+        display: none;
+    }
+    div.navContainer > nav > i{
+        display: block;
+    }
 }

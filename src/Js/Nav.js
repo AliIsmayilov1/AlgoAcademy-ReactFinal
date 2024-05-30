@@ -6,6 +6,7 @@ function Nav() {
       <div className="navContainer">
         <h4>WORKOUT</h4>
         <nav>
+          <i class="fa-solid fa-bars"></i>
           <span>EXERCISES</span>
           <span>TRAINERS</span>
           <span>PRICING</span>

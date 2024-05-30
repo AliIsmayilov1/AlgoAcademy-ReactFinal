@@ -15,12 +15,14 @@ function Section3() {
             <img src={Image1}></img>
           </div>
           <div className="rightTextHolder">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-              consectetur adipiscing.
-            </p>
-            <Button className="green" text="Get Started"></Button>
+            <div className="rightTextContainer">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                consectetur adipiscing.
+              </p>
+              <Button className="green" text="Get Started"></Button>
+            </div>
           </div>
         </div>
         <div className="imageHolder">
